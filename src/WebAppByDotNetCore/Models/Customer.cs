@@ -7,5 +7,7 @@ namespace WebAppByDotNetCore.Models
 {
     public class Customer
     {
+        public int custId { get; set; }
+        public string custName { get; set; }
     }
 }
